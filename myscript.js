@@ -16,7 +16,7 @@ function paintRect()
 	ctx.lineTo(rect.x + rect.dx, rect.y + rect.dy);
 	ctx.lineTo(rect.x, rect.y + rect.dy);
 	ctx.lineTo(rect.x, rect.y);*/
-	ctx.fillStyle="#FF0000";
+	ctx.fillStyle="#FF00FF";
 	ctx.fillRect(rect.x,rect.y,rect.dx,rect.dy);	
 	ctx.stroke();
 }
